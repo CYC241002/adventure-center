@@ -1,0 +1,16 @@
+* {
+  --tc-feature-pro-bg: #2a2e70;
+  --tc-feature-passion-bg: #f49430;
+  --tc-feature-fulfill-bg: #cd2e3d;
+  --tc-feature-wish-bg: #450640;
+}
+
+body .main > section:first-of-type {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.teacher-thumbnail {
+  width: 100%;
+  height: auto;
+}
