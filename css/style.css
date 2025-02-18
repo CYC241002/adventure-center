@@ -98,7 +98,8 @@ nav#navMain .nav-link.qa:hover .inner {
 /* Header Carousel */
 header.header {
   width: 100%;
-  height: 100vh;
+  height: 85vh;
+  margin-top: 3em;
 }
 
 #headerCarousel {
@@ -134,12 +135,54 @@ header.header {
 
 #headerCarousel .carousel-caption {
   color: #fff;
-  background-color: rgba(10, 37, 64, 0.5);
+  text-shadow: var(--bs-body-bg) 0.1em 0.1em 0.2em;
+  /* background-color: rgba(10, 37, 64, 0.5); */
   bottom: 20%;
   max-width: 90%;
   border-radius: 15px;
 }
 
+#headerCarousel .carousel-caption .header-text {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
 #headerCarousel .carousel-indicators {
   bottom: 2rem;
+}
+
+@media (min-width: 992px) {
+  /* 寬螢幕下標語位置 */
+  #headerCarousel .carousel-caption {
+    position: relative;
+  }
+
+  #headerCarousel .carousel-caption .header-text {
+    position: absolute;
+    text-align: left;
+  }
+
+  #headerCarousel .header-01 .carousel-caption {
+    top: -80vh;
+    left: 10vw;
+    width: 30rem;
+  }
+
+  #headerCarousel .header-02 .carousel-caption {
+    top: -80vh;
+    left: 65vw;
+    width: 30rem;
+  }
+
+  #headerCarousel .header-03 .carousel-caption {
+    top: -80vh;
+    left: 15vw;
+    width: 30rem;
+  }
+
+  #headerCarousel .header-04 .carousel-caption {
+    top: -80vh;
+    left: 65vw;
+    width: 30rem;
+  }
 }
