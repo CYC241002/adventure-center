@@ -45,3 +45,10 @@ body .main > section:first-of-type {
     width: 2.5em;
     height: 2.5em;
 }
+
+@media (min-width: 992px) {
+    .img {
+        max-width: 400px;
+        height: auto;
+    }
+}
