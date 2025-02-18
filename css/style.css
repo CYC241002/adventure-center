@@ -143,7 +143,7 @@ header.header {
 }
 
 #headerCarousel .carousel-caption .header-text {
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 2.5em;
 }
 
@@ -164,7 +164,7 @@ header.header {
 
   #headerCarousel .header-01 .carousel-caption {
     top: -80vh;
-    left: 10vw;
+    left: 15vw;
     width: 30rem;
   }
 
