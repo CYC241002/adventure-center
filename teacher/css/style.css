@@ -10,7 +10,91 @@ body .main > section:first-of-type {
   margin-bottom: 5em;
 }
 
+.teacher {
+  cursor: pointer;
+}
+
 .teacher-thumbnail {
-  width: 100%;
+  width: 50%;
   height: auto;
+}
+
+.teacher .content {
+  display: none;
+}
+
+.popup .overlay {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  transition: .5s;
+}
+
+.popup .overlay.active {
+  display: flex;
+}
+
+.popup .overlay.active .window {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  animation: popup 0.5s;
+}
+
+.popup .overlay .window .btn.close {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+}
+
+.popup .overlay .window .inner-content {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.popup .overlay .window .inner-content .right-column {
+  height: 100%;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 992px) {
+  .popup .overlay.active .window {
+    width: 80vw;
+    height: 80vh;
+  }
+
+  .popup .overlay .window .btn.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .popup .overlay .window .inner-content {
+    overflow-y: hidden;
+  }
+
+  .popup .overlay .window .inner-content .left-column .teacher-thumbnail {
+    width: 80%;
+  }
+
+  .popup .overlay .window .inner-content .right-column {
+    overflow-y: auto;
+  }
+}
+
+@keyframes popup {
+  0% { transform: scale(0); }
+  20% { transform: scale(1.1); }
+  50% { transform: scale(0.95); }
+  80% { transform: scale(1.05); }
+  100% { transform: scale(1); }
 }
