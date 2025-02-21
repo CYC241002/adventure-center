@@ -17,10 +17,9 @@
   --bg-nav-link-course: rgba(213, 219, 29, 0.6);
   --bg-nav-link-achievement: rgba(67, 219, 29, 0.6);
   --bg-nav-link-teacher: rgba(29, 219, 187, 0.6);
-  --bg-nav-link-contact: rgba(29, 165, 219, 0.6);
-  --bg-nav-link-customer: rgba(42, 29, 219, 0.6);
-  --bg-nav-link-news: rgba(127, 29, 219, 0.6);
-  --bg-nav-link-qa: rgba(219, 29, 187, 0.6);
+  --bg-nav-link-contact: rgba(29, 159, 219, 0.6);
+  --bg-nav-link-news: rgba(38, 29, 219, 0.6);
+  --bg-nav-link-qa: rgba(108, 29, 219, 0.6);
 }
 
 /* Nav-Link Custom */
