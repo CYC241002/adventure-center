@@ -12,6 +12,11 @@ body .main > section:first-of-type {
 
 .teacher {
   cursor: pointer;
+  transition: .2s;
+}
+
+.teacher:hover {
+  transform: scale(1.05);
 }
 
 .teacher-thumbnail {
