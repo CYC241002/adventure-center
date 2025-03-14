@@ -94,6 +94,17 @@ body .main > section:first-of-type {
   .popup .overlay .window .inner-content .right-column {
     overflow-y: auto;
   }
+
+  .inner-content ul, .inner-content ol {
+    column-count: 2;
+    column-gap: 2.5em;
+    list-style-position: outside;
+    padding-left: 20px;
+  }
+
+  .inner-content ul li, .inner-content ol li {
+    padding-left: 10px;
+  }
 }
 
 @keyframes popup {
