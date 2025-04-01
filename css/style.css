@@ -6,6 +6,14 @@
   --bs-secondary-rgb: 22, 38, 71;
 }
 
+:root,[data-bs-theme=light] {
+  --bs-body-bg: #ffffff;
+  --bs-primary-bg: #91b4ff;
+  --bs-primary-rgb: 145, 180, 255;
+  --bs-secondary-bg: #cfcfcf;
+  --bs-secondary-rgb: 207, 207, 207;
+}
+
 .btn.btn-primary {
   --bs-btn-bg: #0236a5;
   --bs-btn-hover-bg: #0585e6;
