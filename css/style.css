@@ -57,38 +57,56 @@ nav#navMain .nav-link .inner {
 }
 
 nav#navMain .nav-link.about:hover .inner {
+  color: #fff;
+  text-shadow: 0.05em 0.05em 0.25em black;
   background-color: var(--bg-nav-link-about);
 }
 
 nav#navMain .nav-link.expe-learning:hover .inner {
+  color: #fff;
+  text-shadow: 0.05em 0.05em 0.25em black;
   background-color: var(--bg-nav-link-expe-learning);
 }
 
 nav#navMain .nav-link.course:hover .inner {
+  color: #fff;
+  text-shadow: 0.05em 0.05em 0.25em black;
   background-color: var(--bg-nav-link-course);
 }
 
 nav#navMain .nav-link.achievement:hover .inner {
+  color: #fff;
+  text-shadow: 0.05em 0.05em 0.25em black;
   background-color: var(--bg-nav-link-achievement);
 }
 
 nav#navMain .nav-link.teacher:hover .inner {
+  color: #fff;
+  text-shadow: 0.05em 0.05em 0.25em black;
   background-color: var(--bg-nav-link-teacher);
 }
 
 nav#navMain .nav-link.contact:hover .inner {
+  color: #fff;
+  text-shadow: 0.05em 0.05em 0.25em black;
   background-color: var(--bg-nav-link-contact);
 }
 
 nav#navMain .nav-link.customer:hover .inner {
+  color: #fff;
+  text-shadow: 0.05em 0.05em 0.25em black;
   background-color: var(--bg-nav-link-customer);
 }
 
 nav#navMain .nav-link.news:hover .inner {
+  color: #fff;
+  text-shadow: 0.05em 0.05em 0.25em black;
   background-color: var(--bg-nav-link-news);
 }
 
 nav#navMain .nav-link.qa:hover .inner {
+  color: #fff;
+  text-shadow: 0.05em 0.05em 0.25em black;
   background-color: var(--bg-nav-link-qa);
 }
 
